@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  &:hover {
+    background-color: grey;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.cardimg {
+  width: 50px;
+  height: 50px;
+}
+#users {
+  width: 300px;
+  margin: 0 auto;
+  display: none;
+  input {
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 15px;
+  }
+}
+
+#addusers2 {
+  width: 120px;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.link {
+  width: 50px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: grey;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#addusers {
+  width: 150px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: grey;
+  border-radius: 10px;
+  text-decoration: none;
+}
